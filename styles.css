@@ -1,0 +1,140 @@
+*{ 
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Over Light;
+    src: url('Over\ Light.otf');
+}
+
+@font-face {
+    font-family: Nexa Heavy;
+    src: url('Nexa-Heavy.ttf');
+}
+
+@font-face {
+    font-family: Nexa Light;
+    src: url('Nexa-ExtraLight.ttf');
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contents {
+    width: 80%;
+	width: 80%;
+    border: 2px solid black;
+    padding: 0;
+    margin: 1%;
+	margin: 1%;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    font-family: 'Over Light';
+    font-size: 40px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul li {
+    font-family: 'Over Light';
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+
+li a{
+	color: white;
+	text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 20px;
+    font-family: 'Nexa Heavy';
+    margin: 0;
+}
+
+main p {
+    font-family: 'Nexa Light';
+    font-size: 15px;
+}
+
+.image-section img {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+blockquote {
+    font-family: 'Nexa Light';
+    font-size: 15px;
+    margin-bottom: 15px;
+	padding-bottom: 20px;
+    border-bottom: 2px solid black;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Over Light';
+    color: red;
+    font-size: 40px
+
+}
+
+.portfolio {
+    margin: 20px;
+}
+
+.resume {
+    border: 2px solid black;
+    margin: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+
+}
+
+.Selfie {
+    margin-top: 20px;
+
+}
+
+.paragraph {
+    font-family: Nexa Light;
+    margin: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 15px;
+}
